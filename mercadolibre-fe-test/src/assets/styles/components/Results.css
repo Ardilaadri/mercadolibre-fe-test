@@ -7,8 +7,12 @@
 
 .results-container {
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 65%;
   background: #fff;
   padding-bottom: 5rem;
@@ -17,7 +21,9 @@
 
 .left {
   width: 60%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .left img {
@@ -66,14 +72,15 @@
 }
 
 .right button {
-  background: rgb(0, 95, 248);
+  background: #005ff8;
   padding: 1rem;
   text-align: center;
   width: 100%;
   outline: none;
-  border: 0.1rem solid rgb(0, 95, 248);
+  border: 0.1rem solid #005ff8;
   border-radius: 0.5rem;
   color: #fff;
   margin-top: 3.5rem;
   cursor: pointer;
 }
+/*# sourceMappingURL=Results.css.map */

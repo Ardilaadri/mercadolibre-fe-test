@@ -13,17 +13,6 @@ class Searcher extends Component {
     query: "",
   };
 
-  /* fetchProducts = async () => {
-    const response = await fetch(
-      `https://api.mercadolibre.com/sites/MLA/search?q=${this.state.query}`
-    );
-    const data = await response.json();
-
-    this.setState({
-      data: data.results,
-    });
-  }; */
-
   handleInputChange = (event) => {
     const query = event.target.value;
     this.setState({ query });
